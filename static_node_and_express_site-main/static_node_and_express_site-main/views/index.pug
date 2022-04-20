@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    
+    h1.titles  Checkout some of my projects!
+
+    p Here are some things that I have built or am working on.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}` target="_blank")
+            img.thumbnail(src=`${project.main_image}`, alt=`A thumbnail of the project ${project.project_name}`)
+            h5= project.project_name 
+
