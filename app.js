@@ -3,7 +3,7 @@ const { projects } = require('./data.json');
 //Optional path module for setting the absolute path in the express.static function
 const path = require('path');
 const app = express();
-
+const port = process.env.PORT || 3000
 var createError = require('http-errors');
 
 
@@ -35,20 +35,20 @@ app.get('/about', (req, res) => {
 
 app.get('/project/:id', (req, res, next) => {
     const id = req.params.id;
-    
+
     if (projects[id] === undefined) {
         console.log('The page you\'re looking for can\'t be found')
         next();
     } else if (projects) {
-    res.render('project', { 
-        title: projects[id].project_name,
-        description: projects[id].description,
-        technologies: projects[id].technologies,
-        live_demo: projects[id].live_link,
-        github_link: projects[id].github_link,
-        image_urls: projects[id].image_urls
+        res.render('project', {
+            title: projects[id].project_name,
+            description: projects[id].description,
+            technologies: projects[id].technologies,
+            live_demo: projects[id].live_link,
+            github_link: projects[id].github_link,
+            image_urls: projects[id].image_urls
         });
-    } 
+    }
 });
 
 //Error handlers
@@ -78,8 +78,8 @@ app.use((err, req, res, next) => {
     res.render('error');
     //res.send("Oops, something went wrong.")
     console.log('There was an error - check out the stack trace for more info.')
- });
+});
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('The application is running on localhost:3000!')
 });
