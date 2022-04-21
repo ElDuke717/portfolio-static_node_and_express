@@ -2,24 +2,46 @@
     "projects": [
         {
             "id": "0",
-            "project_name": "A Random Quote Generator",
-            "description": "A simple website that generates random quotes.",
+            "project_name": "React Gallery App",
+            "description": "This is a pet photo gallery app built with React and the Flickr API.  I will pull up pet photos but also has buttons that will pull pictures of puppies, dogs and cats, or you can use the search field to get photos of whatever you want.",
             "technologies": [
+                "React",
                 "JavaScript",
+                "API",
+                "Async/Await",
                 "HTML",
                 "CSS"
             ],
-            "main_image": "/static/images/random_quote_gen_main.jpg",
-            "live_link": "https://elduke717.github.io/FSJS-TD-project-1/",
-            "github_link": "https://github.com/ElDuke717/FSJS-TD-project-1",
+            "main_image": "/static/images/react-gallery-app_square.png",
+            "live_link": " https://nh-react-gallery-app.herokuapp.com/",
+            "github_link": "https://github.com/ElDuke717/react-gallery-app",
             "image_urls": [
-                "/static/images/rsz_random_quote_gen.jpg",
-                "/static/images/rsz_random_quote_gen2.jpg",
-                "/static/images/rsz_random_quote_gen3.jpg"
+                "/static/images/react-gallery-rectangle3.png",
+                "/static/images/react-gallery-rectangle2.png",
+                "/static/images/react-gallery-rectangle1.png"
             ]
         },
         {
             "id": "1",
+            "project_name": "Public API Request",
+            "description": "This project pulls random user data from APIs to make a imaginary company directory.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "APIs"
+            ],
+            "main_image": "/static/images/jays_ice_cream-main.jpg",
+            "live_link": "https://elduke717.github.io/public_api_request/",
+            "github_link": "https://github.com/ElDuke717/public_api_request",
+            "image_urls": [
+                "/static/images/rsz_3jays_ice_cream.jpg",
+                "/static/images/rsz_jays_ice_cream2.jpg",
+                "/static/images/rsz_jays_ice_cream3.jpg"
+            ]
+        },
+        {
+            "id": "2",
             "project_name": "Data Pagination and Filtering",
             "description": "A directory of imaginary employees with a search feature.",
             "technologies": [
@@ -34,25 +56,6 @@
                 "/static/images/rsz_data_pagination.jpg",
                 "/static/images/rsz_data_pagination2.jpg",
                 "/static/images/rsz_data_pagination3.jpg"
-            ]
-        },
-        {
-            "id": "2",
-            "project_name": "Interactive Form",
-            "description": "This is an interactive form that renders elements based on input.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Regular Expressions"
-            ],
-            "main_image": "/static/images/interactive_form-main.jpg",
-            "live_link": "https://elduke717.github.io/interactive-form/",
-            "github_link": "https://github.com/ElDuke717/interactive-form",
-            "image_urls": [
-                "/static/images/rsz_interactive_form.jpg",
-                "/static/images/rsz_interactive_form2.jpg",
-                "/static/images/interactive_form3.jpg"
             ]
         },
         {
@@ -75,25 +78,43 @@
         },
         {
             "id": "4",
-            "project_name": "Public API Request",
-            "description": "This project pulls random user data from APIs to make a imaginary company directory.",
+            "project_name": "A Random Quote Generator",
+            "description": "A simple website that generates random quotes.",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS",
-                "APIs"
+                "CSS"
             ],
-            "main_image": "/static/images/jays_ice_cream-main.jpg",
-            "live_link": "https://elduke717.github.io/public_api_request/",
-            "github_link": "https://github.com/ElDuke717/public_api_request",
+            "main_image": "/static/images/random_quote_gen_main.jpg",
+            "live_link": "https://elduke717.github.io/FSJS-TD-project-1/",
+            "github_link": "https://github.com/ElDuke717/FSJS-TD-project-1",
             "image_urls": [
-                "/static/images/rsz_3jays_ice_cream.jpg",
-                "/static/images/rsz_jays_ice_cream2.jpg",
-                "/static/images/rsz_jays_ice_cream3.jpg"
+                "/static/images/rsz_random_quote_gen.jpg",
+                "/static/images/rsz_random_quote_gen2.jpg",
+                "/static/images/rsz_random_quote_gen3.jpg"
             ]
         },
         {
             "id": "5",
+            "project_name": "Interactive Form",
+            "description": "This is an interactive form that renders elements based on input.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Regular Expressions"
+            ],
+            "main_image": "/static/images/interactive_form-main.jpg",
+            "live_link": "https://elduke717.github.io/interactive-form/",
+            "github_link": "https://github.com/ElDuke717/interactive-form",
+            "image_urls": [
+                "/static/images/rsz_interactive_form.jpg",
+                "/static/images/rsz_interactive_form2.jpg",
+                "/static/images/interactive_form3.jpg"
+            ]
+        },
+        {
+            "id": "6",
             "project_name": "Basic HTML Form",
             "description": "This is a basic HTML form, one of my first projects.",
             "technologies": [

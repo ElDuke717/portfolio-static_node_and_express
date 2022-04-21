@@ -1,6 +1,9 @@
 /*
   Main styles
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Exo:wght@500;800&family=Mochiy+Pop+P+One&family=Poppins:wght@400;600&family=Press+Start+2P&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -43,7 +46,7 @@ p {
 }
 
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Exo', sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -107,11 +110,11 @@ a {
 }
 
 .box li {
-  font-size: 13px;
+  font-size: 1rem;
 }
 
 .titles {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bungee', cursive;
 }
 
 

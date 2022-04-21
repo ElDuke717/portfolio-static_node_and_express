@@ -10,7 +10,7 @@ run `npm install` to install all dependencies.  Then run `npm start` to start th
 
 ## Development
 
-* The images for each project page are 1200 X 500 pixels.
+* The images for each project page are 1200 X 550 pixels.
 * The images for the portfolio page are  550 X 550 pixels.
 
 * All project data is stored in `data.json`  It is a JSON file that has a `"projects"` array.  Each item in the array is a project containing the following keys: 
