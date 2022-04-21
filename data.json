@@ -23,6 +23,31 @@
         },
         {
             "id": "1",
+            "project_name": "SQL Library Manager",
+            "description": "This is a library management app built on Node with Sequelize and SQlite.  It allows you to add, delete, and update books and authors.  It also allows you to search for books and authors by title or author.",
+            "technologies": [
+                "SQL",
+                "Sequelize",
+                "SQLite",
+                "HTTP",
+                "JavaScript",
+                "API",
+                "CRUD operations",
+                "HTML",
+                "CSS",
+                "SVG"
+            ],
+            "main_image": "/static/images/sql-library-app-square.png",
+            "live_link": " https://nh-react-gallery-app.herokuapp.com/",
+            "github_link": "https://github.com/ElDuke717/sql-library-manager",
+            "image_urls": [
+                "/static/images/sql-library-app-rectangle1.png",
+                "/static/images/sql-library-app-rectangle2.png",
+                "/static/images/sql-library-app-rectangle4.png"
+            ]
+        },
+        {
+            "id": "2",
             "project_name": "Public API Request",
             "description": "This project pulls random user data from APIs to make a imaginary company directory.",
             "technologies": [
@@ -41,7 +66,7 @@
             ]
         },
         {
-            "id": "2",
+            "id": "3",
             "project_name": "Data Pagination and Filtering",
             "description": "A directory of imaginary employees with a search feature.",
             "technologies": [
@@ -59,7 +84,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": "4",
             "project_name": "Gameshow App",
             "description": "This is a Wheel-of-Fortune style game show app, with some added fun.",
             "technologies": [
@@ -77,7 +102,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": "5",
             "project_name": "A Random Quote Generator",
             "description": "A simple website that generates random quotes.",
             "technologies": [
@@ -95,7 +120,7 @@
             ]
         },
         {
-            "id": "5",
+            "id": "6",
             "project_name": "Interactive Form",
             "description": "This is an interactive form that renders elements based on input.",
             "technologies": [
@@ -114,7 +139,7 @@
             ]
         },
         {
-            "id": "6",
+            "id": "7",
             "project_name": "Basic HTML Form",
             "description": "This is a basic HTML form, one of my first projects.",
             "technologies": [
